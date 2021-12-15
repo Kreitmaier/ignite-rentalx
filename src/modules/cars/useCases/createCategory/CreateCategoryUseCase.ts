@@ -1,5 +1,5 @@
 
-import { ICategoriesRepository } from "../repositories/ICategoriesRepository";
+import { ICategoriesRepository } from "../../repositories/ICategoriesRepository";
 
 
 interface IRequest {
@@ -7,7 +7,7 @@ interface IRequest {
     description: string;
 }
 
-class CreateCategoryService {
+class CreateCategoryUseCase {
 
     constructor( private categoriesRepository: ICategoriesRepository){
 
@@ -21,8 +21,8 @@ class CreateCategoryService {
             throw new Error("Category alredy exists!");
         }
 
-        this.categoriesRepository.create({name, description});
+        this.categoriesRepository.create({ name, description });
     }
 }
 
-export { CreateCategoryService }
+export { CreateCategoryUseCase }
