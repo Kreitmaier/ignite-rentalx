@@ -3,7 +3,6 @@
 **RF** => Requisitos Funcionais
 Deve ser possível cadastrar um novo carro
 
-
 **RNF** => Requisitos não Funcionais
 
 **RN** => Regra de Negócio
