@@ -27,8 +27,6 @@ O usuário não precisa estar logado no sistema.
 
 **RF**
 Deve ser possível cadastrar uma especificação para um carro
-Deve ser possivel listar todas as especificações
-Deve ser possivel lisar todos os carros
 
 **RN**
 Não deve ser possivel cadastrar uma especificação para um carro não cadastrado
@@ -39,13 +37,13 @@ o usuário responsável pelo cadastro deve ser um usuário administrador.
 
 **RF**
 Deve ser possivel cadastrar a imagem do carro
-Deve ser possivel listar todos os carros
+
 
 **RNF**
 Utilizar o multer para upload dos arquivos
 
 **RN**
-O usuário deve poder cadastrar mais de uma imagem para o mesmo carro
+O usuário deve poder cadastrar mais de uma imagem para o mesmo carro.
 o usuário responsável pelo cadastro deve ser um usuário administrador.
 
 # Aluguel de carro
